@@ -1398,3 +1398,9 @@ blockquote {
 .cache {
     visibility: hidden;
 }
+
+.phone {
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
