@@ -1404,3 +1404,31 @@ blockquote {
     margin: auto;
     display: flex;
 }
+
+.banner-video {
+  position: absolute; 
+  z-index: 0;
+  width: 192rem; 
+  transform: translateX(-50%);
+  /* ou margin-left: -960px;  */
+  left: 50%; 
+  top:0;
+}
+
+.banner-video-overlay {
+  position: absolute; 
+  height: 100%; 
+  width: 100%;
+  top:0;
+  left:0;
+  background: rgba(0,0,0,0.5);
+  z-index: 1;
+}
+
+.bloc {
+    position: center;
+    display: flex;
+    overflow: hidden;
+    width: auto;
+    object-position: center;
+}
