@@ -1431,4 +1431,5 @@ blockquote {
     overflow: hidden;
     width: auto;
     object-position: center;
+    margin-left: 4rem;
 }
